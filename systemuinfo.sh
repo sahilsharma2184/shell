@@ -6,6 +6,8 @@
 # Purpose: To get the information about the CPU, RAM, Storage, ID of python processes of the virtual machine
 ####################################################################################
 set -x
+set -o pipefail
+set -e
 echo "The Information abot CPU --->"
 nproc
 
